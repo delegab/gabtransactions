@@ -1,0 +1,33 @@
+{
+  "name": "gabtransactions",
+  "version": "1.0.0",
+  "description": "Transaction for payment,saving,withdraw",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delegab/gabtransactions.git"
+  },
+  "keywords": [
+    "node",
+    "server.js"
+  ],
+  "author": "Bamidele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delegab/gabtransactions/issues"
+  },
+  "homepage": "https://github.com/delegab/gabtransactions#readme",
+  "dependencies": {
+    "blueimp-file-upload": "^10.32.0",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.32.0",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "pg": "^8.8.0"
+  }
+}
